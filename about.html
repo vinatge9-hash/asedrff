@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resto Mash • About Us</title>
+  <meta name="description" content="Learn about Resto Mash—our story, philosophy, and the team behind the modern dining experience in Hyderabad." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="transition-all duration-500 opacity-0 font-sans bg-white text-slate-900">
+  <header class="bg-white/90 fixed w-full z-50 top-0 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold text-slate-900 transition-all duration-300 hover:scale-105">Resto Mash</a>
+      <nav aria-label="Main Nav" class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Home</a>
+        <a href="about.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">About Us</a>
+        <a href="menu.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Menu</a>
+        <a href="gallery.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Gallery</a>
+        <a href="contact.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Contact Us</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-300" aria-label="Open Menu">
+        <span class="block w-4 h-0.5 bg-slate-800 mx-auto my-1 rounded"></span>
+        <span class="block w-4 h-0.5 bg-slate-800 mx-auto my-1 rounded"></span>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden px-4 pb-4">
+      <a href="index.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Home</a>
+      <a href="about.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">About Us</a>
+      <a href="menu.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Menu</a>
+      <a href="gallery.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Gallery</a>
+      <a href="contact.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="min-h-screen flex items-center justify-center" style="background-image: url('https://pixabay.com/get/ga625b427e07664bcd3593e661f11653b09aa769324d3fa4eacf43a44c011c628a3d444c7a1c3767b6c0808df21794dbff4fd6a39fef5857cf84237ce28157f48_640.jpg'); background-size: cover; background-position: center;">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="relative z-10 text-center text-white p-6" data-animate>
+        <h1 class="text-4xl md:text-5xl font-extrabold">Our Story</h1>
+        <p class="mt-4 max-w-2xl mx-auto text-lg">Resto Mash is a modern dining concept rooted in hospitality. We combine precise technique with warm, thoughtful service to create memorable experiences in Hyderabad.</p>
+      </div>
+    </section>
+
+    <section class="py-16" data-animate>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-4">
+          <h2 class="text-2xl font-bold">Our Philosophy</h2>
+          <p>We believe great food should be simple, honest, and beautifully presented. Our team crafts seasonal plates inspired by local ingredients, with a clean, contemporary aesthetic.</p>
+          <p>Located in the heart of Hyderabad, Resto Mash invites you to slow down, savor, and enjoy the moment.</p>
+        </div>
+        <div class="rounded-lg overflow-hidden shadow-md" aria-label="Chef portrait">
+          <img src="https://images.pexels.com/photos/5898841/pexels-photo-5898841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Chef portrait" class="w-full h-64 object-cover"/>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold">Resto Mash</h3>
+        <p class="mt-2 text-sm text-gray-300">Hyderabad, Telangana, India</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="index.html" class="hover:underline transition-all duration-300">Home</a></li>
+          <li><a href="about.html" class="hover:underline transition-all duration-300">About Us</a></li>
+          <li><a href="menu.html" class="hover:underline transition-all duration-300">Menu</a></li>
+        </ul>
+      </div>
+      <section aria-label="Newsletter" class="lg:mt-0">
+        <h4 class="font-semibold mb-2">Newsletter</h4>
+        <p class="text-sm text-gray-300">Get updates on new dishes and events.</p>
+        <form class="mt-2">
+          <input type="email" placeholder="Email address" class="w-full bg-slate-800 text-white px-3 py-2 rounded" />
+          <button class="mt-2 w-full bg-blue-500 text-white px-3 py-2 rounded transition-all duration-300 hover:brightness-110">Subscribe</button>
+        </form>
+      </section>
+    </div>
+    <hr class="border-gray-700 mx-4 my-6" />
+    <p class="text-center text-sm text-gray-400">© 2025 Resto Mash. All rights reserved. Hyderabad, Telangana, India</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn && btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('opacity-100');
+      const sections = document.querySelectorAll('[data-animate]');
+      const obs = new IntersectionObserver((entries, o) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('opacity-100');
+            e.target.classList.remove('opacity-0','translate-y-6');
+            o.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      sections.forEach(s => { s.classList.add('opacity-0','translate-y-6'); obs.observe(s); });
+    });
+  </script>
+</body>
+</html>
