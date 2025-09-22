@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resto Mash • Home</title>
+  <meta name="description" content="Modern, sleek dining experience at Resto Mash in Hyderabad, India." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="transition-all duration-500 opacity-0 font-sans bg-white text-slate-900">
+  <header class="bg-white/90 fixed w-full z-50 top-0 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold text-slate-900 transition-all duration-300 hover:scale-105">Resto Mash</a>
+      <nav aria-label="Main Nav" class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Home</a>
+        <a href="about.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">About Us</a>
+        <a href="menu.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Menu</a>
+        <a href="gallery.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Gallery</a>
+        <a href="contact.html" class="text-slate-700 hover:text-blue-500 transition-all duration-300">Contact Us</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-300" aria-label="Open Menu">
+        <span class="block w-4 h-0.5 bg-slate-800 mx-auto my-1 rounded"></span>
+        <span class="block w-4 h-0.5 bg-slate-800 mx-auto my-1 rounded"></span>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden px-4 pb-4">
+      <a href="index.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Home</a>
+      <a href="about.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">About Us</a>
+      <a href="menu.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Menu</a>
+      <a href="gallery.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Gallery</a>
+      <a href="contact.html" class="block px-2 py-2 rounded transition-all duration-300 hover:bg-gray-100">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="min-h-screen flex items-center justify-center" style="background-image: url('https://pixabay.com/get/g0f4ed06bf1feed4726e8f18f2905cee438aa2423cc09002d301e9fb3af9f844dbcfb95a72e4b810b43667f5d573323551e5b05cd829529c57fee67e23dad28e0_640.jpg'); background-size: cover; background-position: center;">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="relative z-10 text-center max-w-2xl px-4" data-animate>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+          Savor the Future of Dining<br>
+          <span class="text-blue-400">Resto Mash</span>
+        </h1>
+        <p class="mt-4 text-white/90 text-lg md:text-xl">Modern, minimal, and delicious. Bold flavors served with clean, contemporary design.</p>
+        <div class="mt-8 flex justify-center gap-4">
+          <a href="menu.html" class="inline-block bg-blue-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-all duration-300">View Menu</a>
+          <a href="contact.html" class="inline-block border border-white text-white px-6 py-3 rounded-full hover:bg-white/10 transition-all duration-300">Reserve a Table</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-gray-50" data-animate>
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+          <span class="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold">Testimonials</span>
+          <h2 class="mt-2 text-3xl font-bold">What Our Friends Say</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:scale-[1.03] transition-all duration-300" aria-label="Testimonial 1">
+            <div class="flex items-center mb-2">
+              <span class="inline-flex items-center text-yellow-400" aria-label="5 stars">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561.953-4.756 4.635 1.122 6.545z"/></svg>
+              </span>
+            </div>
+            <blockquote class="text-gray-700 italic">“Dinner was a revelation—clean flavors, bold textures, and a vibe that feels like the future.”</blockquote>
+            <div class="mt-3 font-semibold">Alex Rao</div>
+            <div class="text-sm text-gray-500">Hyderabad, India</div>
+          </article>
+          <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:scale-[1.03] transition-all duration-300" aria-label="Testimonial 2">
+            <div class="flex items-center mb-2">
+              <span class="inline-flex items-center text-yellow-400" aria-label="5 stars">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+              </span>
+            </div>
+            <blockquote class="text-gray-700 italic">“The service is impeccable and the dishes feel thoughtful and refined.”</blockquote>
+            <div class="mt-3 font-semibold">Priya Kapoor</div>
+            <div class="text-sm text-gray-500">Hyderabad, India</div>
+          </article>
+          <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:scale-[1.03] transition-all duration-300" aria-label="Testimonial 3">
+            <div class="flex items-center mb-2">
+              <span class="inline-flex items-center text-yellow-400" aria-label="5 stars">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" class="mr-1"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.122-6.545L.488 6.91l6.561-.953L10 0l2.951 5.957 6.561-.953-4.756 4.635 1.122 6.545z"/></svg>
+              </span>
+            </div>
+            <blockquote class="text-gray-700 italic">“A truly refreshing dining experience—minimalist, tasty, and memorable.”</blockquote>
+            <div class="mt-3 font-semibold">Rahul Mehta</div>
+            <div class="text-sm text-gray-500">Hyderabad, India</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold">Resto Mash</h3>
+        <p class="mt-2 text-sm text-gray-300">Hyderabad, Telangana, India</p>
+        <div class="flex space-x-3 mt-3">
+          <span class="text-gray-400">F</span>
+          <span class="text-gray-400">I</span>
+          <span class="text-gray-400">T</span>
+        </div>
+      </div>
+      <nav aria-label="Footer Links">
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="index.html" class="hover:underline transition-all duration-300">Home</a></li>
+          <li><a href="about.html" class="hover:underline transition-all duration-300">About Us</a></li>
+          <li><a href="menu.html" class="hover:underline transition-all duration-300">Menu</a></li>
+          <li><a href="gallery.html" class="hover:underline transition-all duration-300">Gallery</a></li>
+          <li><a href="contact.html" class="hover:underline transition-all duration-300">Contact Us</a></li>
+        </ul>
+      </nav>
+      <section aria-label="Newsletter">
+        <h4 class="font-semibold mb-2">Newsletter</h4>
+        <p class="text-sm text-gray-400">Get updates on new dishes and events.</p>
+        <form class="mt-2">
+          <input type="email" placeholder="Email address" class="w-full bg-slate-800 text-white px-3 py-2 rounded" />
+          <button class="mt-2 w-full bg-blue-500 text-white px-3 py-2 rounded transition-all duration-300 hover:brightness-110">Subscribe</button>
+        </form>
+      </section>
+    </div>
+    <hr class="border-gray-700 my-6" />
+    <p class="text-center text-sm text-gray-400">© 2025 Resto Mash. All rights reserved. Hyderabad, Telangana, India</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const mobile = document.getElementById('mobileMenu');
+    btn && btn.addEventListener('click', () => mobile.classList.toggle('hidden'));
+    // Fade-in on load
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('opacity-100');
+      const sections = document.querySelectorAll('[data-animate]');
+      const obs = new IntersectionObserver((entries, o) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('opacity-100');
+            e.target.classList.remove('opacity-0','translate-y-6');
+            o.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      sections.forEach(s => {
+        s.classList.add('opacity-0','translate-y-6');
+        obs.observe(s);
+      });
+    });
+  </script>
+</body>
+</html>
